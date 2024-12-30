@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    background-color: black;
+    font-family: "Inter Tight", sans-serif;
+}
+
+.main {
+    width: 100%;
+    height: 100vh;
+}
+
+.nav {
+    width: 100%;
+    height: 17vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5vw;
+}
+
+.nleft h5 {
+    color: white;
+    font-size: 2vmax;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 2px;
+}
+
+.nright a {
+    color: white;
+    margin-right: 2vw;
+    font-size: 1.3vw;
+    text-decoration: none;
+    font-weight: 500;
+    transition: 0.5s;
+    box-shadow: inset 0 0 0 0 rgb(253, 253, 113);
+    padding: 0 .25rem;
+}
+
+.nright a:hover {
+    box-shadow: inset 100px 0 0 0 rgb(253, 253, 113);
+    color: black;
+}
+
+.btn-main {
+    transition: 0.5s;
+    font-weight: 500;
+    border-radius: 12px;
+    color: white;
+    font-size: 1.2vw;
+    padding: 5px 15px;
+    background-color: transparent;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+.hero {
+    overflow: hidden;
+    width: 100%;
+    height: 83vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.heroimg {
+    overflow: hidden;
+    width: 30%;
+}
+
+.heroimg img {
+    height: 99%;
+    object-fit: cover;
+}
+
+.lefthero {
+    width: 50%;
+    text-align: center;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.lefthero .btn-main {
+    margin-left: 10%;
+    transition: 0.5s;
+}
+
+.btn-main:hover {
+    background-color: rgb(253, 253, 113);
+    color: black;
+}
+
+.lefthero h2 {
+    padding-left: 5vw;
+    text-align: left;
+    color: white;
+    text-transform: uppercase;
+    font-size: 5vw;
+}
+
+.lefthero h2:first-child {
+    color: rgb(253, 253, 113);
+}
+
+.righthero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 20%;
+    height: 100%;
+    color: white;
+}
+
+.righthero h3 {
+    font-size: 1vw;
+    padding: 1vw 0;
+}
+
+.righthero p {
+    width: 60%;
+    font-size: 0.7vw;
+    text-align: justify;
+}
+ 
